@@ -1,5 +1,22 @@
-<h1>Listar Livros</h1>
-    <a routerLink="/cadastro" class="myButton">Tela de Cadastro</a>
-  <ul *ngFor="let livro of livros">
-    <li>{{livro.titulo}}</li>
-  </ul>
+<h1>Listar de Livros cadastrados</h1>
+<br>
+<a routerLink="/cadastro" class="myButton">Cadastrar Livro</a>
+
+<div class="choose">
+  <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+            <div class="choose_box">
+              <div class="card" *ngFor="let livro of livros">
+                <div class="cardtext">
+                  <h2>{{livro.titulo}}</h2>
+                  <p>Categoria: {{livro.categoria}}</p>
+                  <p>Autor: {{livro.autor}} </p>  
+                  <p>isbn: {{livro.isbn}} </p>  
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+  </div>
+</div>  
