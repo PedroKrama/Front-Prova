@@ -1,0 +1,49 @@
+
+  
+  /** Choose  section **/
+  
+  .choose {
+    margin-top: 10px;
+  }
+  
+  .choose_box {
+    padding-top: 30px;
+  }
+  
+  /** end Choose  section **/
+  
+
+  input {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    }
+
+    input {
+    width: 300px;
+    padding: 5px;
+    }
+    input[type="date"] {
+    padding: 4px 5px;
+    }
+    .item:hover p, .item:hover i, .question:hover p, .question label:hover, input:hover::placeholder {
+    color:#004d00;
+    }
+    .item input:hover {
+    border: 1px solid transparent;
+    box-shadow: 0 0 6px 0 #004d00;
+    color:#004d00;
+    }
+    
+
+  .myButton {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    height: 20px;
+    color: white;
+    padding: 20px 10px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    text-align: justify;
+  }    

@@ -1,25 +1,26 @@
 <h1>Cadastro</h1>
 
-<div>
-    <div>
+<div  class="choose">
+    <div >
         <label for="titulo">Titulo</label>
-        <input id="titulo" type="text" name="titulo" placeholder="titulo" [(ngModel)]="titulo"/>
-    </div>
-    <div>
+        <div class="item">
+            <input id="titulo" type="text" name="titulo" placeholder="titulo" [(ngModel)]="titulo"/>
+        </div>
         <label for="titulo">Isbn</label>
-        <input id="isbn" type="text" name="isbn" placeholder="isbn" [(ngModel)]="isbn"/>
-    </div>
-    <div>
+        <div class="item">
+            <input id="isbn" type="text" name="isbn" placeholder="isbn" [(ngModel)]="isbn"/>
+        </div>
         <label for="titulo">Categoria</label>
-        <input id="categoria" type="text" name="categoria" placeholder="categoria" [(ngModel)]="categoria"/>
-    </div>
-    <div>
+        <div class="item">
+            <input id="categoria" type="text" name="categoria" placeholder="categoria" [(ngModel)]="categoria"/>
+        </div>
         <label for="titulo">Autor</label>
-        <input id="autor" type="text" name="autor" placeholder="autor"[(ngModel)]="autor" />
-    </div>
-
-    <div>
-        <button type="submit" (click)="create()">Criar Livro</button>
+        <div class="item">
+            <input id="autor" type="text" name="autor" placeholder="autor"[(ngModel)]="autor" />
+        </div>
+        <div >
+            <button class="myButton" type="submit" (click)="create()">Criar Livro</button>
+        </div>
     </div>
 </div>
 
