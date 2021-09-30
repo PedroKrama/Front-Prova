@@ -21,7 +21,6 @@ export class ListarLivrosComponent implements OnInit {
       this.service.list().subscribe((livro) => 
       {
         this.livros = livro;
-        console.log(livro)
       })
     }
 }
